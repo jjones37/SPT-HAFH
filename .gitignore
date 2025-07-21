@@ -1,0 +1,23 @@
+/EscapeFromTarkov_Data/
+/Logs/
+/MonoBleedingEdge/
+/NLog/
+/SPT_Data/
+/doorstop_config.ini
+/EscapeFromTarkov.exe
+/imgui.ini
+/LICENSE-BEPINEX.txt
+/LICENSE-ConfigurationManager.txt
+/LICENSE-Launcher.txt
+/LICENSE-Modules.txt
+/LICENSE-Server.txt
+/Patcher.log
+/SPT.Launcher.exe
+/SPT.Server.exe
+/spt-installer.log
+/UnityPlayer.dll
+/winhttp.dll
+
+/** User Directory (Donnie said order matters) */
+user/*
+!user/mods/
