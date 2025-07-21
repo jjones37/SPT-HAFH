@@ -1,0 +1,879 @@
+[Message:   BepInEx] BepInEx 5.4.22.0 - EscapeFromTarkov (7/18/2025 10:03:19 PM)
+[Info   :   BepInEx] Running under Unity v0.16.1.3539
+[Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
+[Info   :   BepInEx] Supports SRE: True
+[Info   :   BepInEx] System platform: Bits64, Windows
+[Message:   BepInEx] Preloader started
+[Info   :   BepInEx] Loaded 1 patcher method from [BepInEx.Preloader 5.4.22.0]
+[Info   :   BepInEx] Loaded 1 patcher method from [spt-prepatch 3.11.3.0]
+[Info   :   BepInEx] 2 patcher plugins loaded
+[Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
+[Info   :   BepInEx] Patching [Assembly-CSharp] with [SPT.PrePatch.SPTPrePatcher]
+[Message:   BepInEx] Preloader finished
+[Message:   BepInEx] Chainloader ready
+[Message:   BepInEx] Chainloader started
+[Info   :   BepInEx] 12 plugins to load
+[Info   :   BepInEx] Loading [Configuration Manager 18.0.1]
+[Info   :   BepInEx] Loading [SPT.Custom 3.11.3]
+[Info   :SPT.Custom] Loading: SPT.Custom
+[Info   :ModulePatch] Enabled patch EasyAssetsPatch
+[Info   :ModulePatch] Enabled patch EasyBundlePatch
+[Info   :ModulePatch] Enabled patch DisableNonHalloweenExitsDuringEventPatch
+[Info   :ModulePatch] Enabled patch SendFleaListingTaxAmountToServerPatch
+[Info   :ModulePatch] Enabled patch AddTraitorScavsPatch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/bosstypes
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bosstypes
+[Info   :ModulePatch] Enabled patch CustomAiPatch
+[Info   :ModulePatch] Enabled patch SaveSettingsToSptFolderPatch
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsSetInt
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsSetFloat
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsSetString
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsGetInt
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsGetFloat
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsGetString
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsHasKey
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsDeleteKey
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsDeleteAll
+[Info   :ModulePatch] Enabled patch PatchPlayerPrefsSave
+[Info   :ModulePatch] Enabled patch QTEPatch
+[Info   :ModulePatch] Enabled patch RedirectClientImageRequestsPatch
+[Info   :ModulePatch] Enabled patch DisableGameModeAdjustButtonPatch
+[Info   :ModulePatch] Enabled patch FixPmcSpawnParamsNullErrorPatch
+[Info   :ModulePatch] Enabled patch SetPreRaidSettingsScreenDefaultsPatch
+[Info   :ModulePatch] Enabled patch CoreDifficultyPatch
+[Info   :ModulePatch] Enabled patch BotDifficultyPatch
+[Info   :ModulePatch] Enabled patch VersionLabelPatch
+[Info   :ModulePatch] Enabled patch FixScavWarNullErrorWithMarkOfUnknownPatch
+[Info   :ModulePatch] Enabled patch MergeScavPmcQuestsOnInventoryLoadPatch
+[Info   :ModulePatch] Enabled patch CopyPmcQuestsAndWishlistToPlayerScavPatch
+[Info   :ModulePatch] Enabled patch FixBossesHavingNoFollowersOnMediumAiAmount
+[Info   :ModulePatch] Enabled patch FixAirdropCrashPatch
+[Info   :ModulePatch] Enabled patch FixAirdropFlareDisposePatch
+[Info   :ModulePatch] Enabled patch AllowAirdropsInPvEPatch
+[Info   :ModulePatch] Enabled patch MemoryCollectionPatch
+[Info   :ModulePatch] Enabled patch BotsControllerInitPatch
+[Info   :ModulePatch] Enabled patch BotsEventsControllerActivatePatch
+[Info   :ModulePatch] Enabled patch EnablePrestigeTabPatch
+[Info   :ModulePatch] Enabled patch MatchStartServerLocationPatch
+[Info   :ModulePatch] Enabled patch SpawnPointAIPlayerBotLimitPatch
+[Info   :ModulePatch] Enabled patch SpawnPointNearestPlayerAIPatch
+[Info   :SPT.Custom] Completed: SPT.Custom
+[Info   :   BepInEx] Loading [SPT.Singleplayer 3.11.3]
+[Info   :SPT.Singleplayer] Loading: SPT.SinglePlayer
+[Info   :ModulePatch] Enabled patch TinnitusFixPatch
+[Info   :ModulePatch] Enabled patch EmptyInfilFixPatch
+[Info   :ModulePatch] Enabled patch OverrideMaxAiAliveInRaidValuePatch
+[Info   :ModulePatch] Enabled patch FixPostScavRaidXpShowingZeroPatch
+[Info   :ModulePatch] Enabled patch DisablePMCExtractsForScavsPatch
+[Info   :ModulePatch] Enabled patch ScavExfilPatch
+[Info   :ModulePatch] Enabled patch ScavProfileLoadPatch
+[Info   :ModulePatch] Enabled patch ScavPrefabLoadPatch
+[Info   :ModulePatch] Enabled patch DisableReadyLocationReadyPatch
+[Info   :ModulePatch] Enabled patch LoadOfflineRaidScreenPatch
+[Info   :ModulePatch] Enabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Enabled patch PluginErrorNotifierPatch
+[Info   :ModulePatch] Enabled patch MapReadyButtonPatch
+[Info   :ModulePatch] Enabled patch RemoveUsedBotProfilePatch
+[Info   :ModulePatch] Enabled patch ScavLateStartPatch
+[Info   :ModulePatch] Enabled patch ScavSellAllPriceStorePatch
+[Info   :ModulePatch] Enabled patch ScavSellAllRequestPatch
+[Info   :ModulePatch] Enabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Enabled patch DisableWelcomeToPVEModeMessagePatch
+[Info   :ModulePatch] Enabled patch DisableMatchmakerPlayerPreviewButtonsPatch
+[Info   :ModulePatch] Enabled patch EnableRefForPVEPatch
+[Info   :ModulePatch] Enabled patch EnableRefIntermScreenPatch
+[Info   :ModulePatch] Enabled patch EnablePlayerScavPatch
+[Info   :ModulePatch] Enabled patch ScavFoundInRaidPatch
+[Info   :ModulePatch] Enabled patch GetProfileAtEndOfRaidPatch
+[Info   :ModulePatch] Enabled patch SendPlayerScavProfileToServerAfterRaidPatch
+[Info   :ModulePatch] Enabled patch RemoveStashUpgradeLabelPatch
+[Info   :ModulePatch] Enabled patch RemoveClothingItemExternalObtainLabelPatch
+[Info   :ModulePatch] Enabled patch ForceRaidModeToLocalPatch
+[Info   :ModulePatch] Enabled patch ScavIsPlayerEnemyPatch
+[Info   :ModulePatch] Enabled patch FirearmControllerShowIncompatibleNotificationClass
+[Info   :ModulePatch] Enabled patch FixKeyAlreadyExistsErrorOnAchievementPatch
+[Info   :ModulePatch] Enabled patch ScavPrestigeFixPatch
+[Info   :ModulePatch] Enabled patch DisableDevMaskCheckPatch
+[Info   :ModulePatch] Enabled patch RemoveStopwatchAllocationsEveryBotFramePatch
+[Info   :ModulePatch] Enabled patch RemoveStopwatchAllocationsEveryCoverPointFramePatch
+[Info   :ModulePatch] Enabled patch DisableUseBSGServersCheckbox
+[Info   :ModulePatch] Enabled patch PmcBotSidePatch
+[Info   :ModulePatch] Enabled patch QuestAchievementRewardInRaidPatch
+[Info   :ModulePatch] Enabled patch FixUnityWarningSpamFromAirdropsPatch
+[Info   :SPT.Singleplayer] Completed: SPT.SinglePlayer
+[Info   :   BepInEx] Loading [SPT.Core 3.11.3]
+[Info   :  SPT.Core] Loading: SPT.Core
+[Info   :ModulePatch] Enabled patch ConsistencySinglePatch
+[Info   :ModulePatch] Enabled patch ConsistencyMultiPatch
+[Info   :ModulePatch] Enabled patch GameValidationPatch
+[Info   :ModulePatch] Enabled patch BattlEyePatch
+[Info   :ModulePatch] Enabled patch SslCertificatePatch
+[Info   :ModulePatch] Enabled patch UnityWebRequestPatch
+[Info   :ModulePatch] Enabled patch WebSocketSslValidationPatch
+[Info   :  SPT.Core] Completed: SPT.Core
+[Info   :   BepInEx] Loading [SPT.Debugging 3.11.3]
+[Info   :SPT.Debugging] Loading: SPT.Debugging
+[Info   :ModulePatch] Enabled patch EndRaidDebug
+[Info   :ModulePatch] Enabled patch LoggerClassLogPatch
+[Info   :ModulePatch] Enabled patch ReloadClientPatch
+[Info   :ModulePatch] Enabled patch EnableDebugCommandsPatch
+[Info   :SPT.Debugging] Completed: SPT.Debugging
+[Info   :   BepInEx] Loading [Fika.Core 1.2.8]
+[Info   : Fika.Core] Received NatPunchServer config from server:
+[Info   : Fika.Core] Enable: False
+[Info   : Fika.Core] Port: 6790
+[Info   : Fika.Core] NatIntroduceAmount: 1
+[Info   : FikaPatch] Enabled patch FikaVersionLabel_Patch
+[Info   : FikaPatch] Enabled patch DisableMatchSettingsReadyButton_Patch
+[Info   : FikaPatch] Enabled patch DisableReadyButton_Patch
+[Info   : FikaPatch] Enabled patch AchievementsScreen_Show_Patch
+[Info   : FikaPatch] Enabled patch AchievementView_Show_Patch
+[Info   : FikaPatch] Enabled patch ChangeGameModeButton_Patch
+[Info   : FikaPatch] Enabled patch CoopSettingsWindow_Show_Patch
+[Info   : FikaPatch] Enabled patch DisableInsuranceReadyButton_Patch
+[Info   : FikaPatch] Enabled patch DisconnectButton_Patch
+[Info   : FikaPatch] Enabled patch MainMenuControllerClass_method_52_Patch
+[Info   : FikaPatch] Enabled patch GClass3581_ShowAction_Patch
+[Info   : FikaPatch] Enabled patch HideoutPlayerOwner_SetPointOfView_Patch
+[Info   : FikaPatch] Enabled patch MenuScreen_Awake_Patch
+[Info   : FikaPatch] Enabled patch MenuScreen_method_9_Patch
+[Info   : FikaPatch] Enabled patch RagfairScreen_Show_Patch
+[Info   : FikaPatch] Enabled patch MatchmakerOfflineRaidScreen_Show_Patch
+[Info   : FikaPatch] Enabled patch MatchmakerOfflineRaidScreen_Close_Patch
+[Info   : FikaPatch] Enabled patch MatchmakerPlayerControllerClass_GetCoopBlockReason_Patch
+[Info   : FikaPatch] Enabled patch MenuTaskBar_Patch
+[Info   : FikaPatch] Enabled patch PartyInfoPanel_Show_Patch
+[Info   : FikaPatch] Enabled patch RaidSettingsWindow_method_8_Patch
+[Info   : FikaPatch] Enabled patch RaidSettingsWindow_Show_Patch
+[Info   : FikaPatch] Enabled patch SessionResultExitStatus_Show_Patch
+[Info   : FikaPatch] Enabled patch TarkovApplication_method_18_Patch
+[Info   : FikaPatch] Enabled patch MatchmakerAcceptScreen_Awake_Patch
+[Info   : FikaPatch] Enabled patch MatchmakerAcceptScreen_Show_Patch
+[Info   : FikaPatch] Enabled patch AbstractGame_InRaid_Patch
+[Info   : FikaPatch] Enabled patch AIPlaceLogicPartisan_Dispose_Patch
+[Info   : FikaPatch] Enabled patch GClass2461_UpdateOfflineClientLogic_Patch
+[Info   : FikaPatch] Enabled patch GClass2462_UpdateOfflineClientLogic_Patch
+[Info   : FikaPatch] Enabled patch SyncObjectProcessorClass_GetSyncObjectStrategyByType_Patch
+[Info   : FikaPatch] Enabled patch GClass1395_Constructor_Patch
+[Info   : FikaPatch] Enabled patch GClass622_method_0_Patch
+[Info   : FikaPatch] Enabled patch GClass622_method_28_Patch
+[Info   : FikaPatch] Enabled patch BotCacher_Patch
+[Info   : FikaPatch] Enabled patch BotReload_method_1_Patch
+[Info   : FikaPatch] Enabled patch BTRControllerClass_Init_Patch
+[Info   : FikaPatch] Enabled patch BTRVehicle_method_38_Patch
+[Info   : FikaPatch] Enabled patch BTRView_GoIn_Patch
+[Info   : FikaPatch] Enabled patch BTRView_GoOut_Patch
+[Info   : FikaPatch] Enabled patch BTRView_SyncViewFromServer_Patch
+[Info   : FikaPatch] Enabled patch Player_UpdateBtrTraderServiceData_Patch
+[Info   : FikaPatch] Enabled patch WeaponManagerClass_method_13_Patch
+[Info   : FikaPatch] Enabled patch WeaponManagerClass_ValidateScopeSmoothZoomUpdate_Patch
+[Info   : FikaPatch] Enabled patch Class1391_ReloadBackendLocale_Patch
+[Info   : FikaPatch] Enabled patch GameWorld_Create_Patch
+[Info   : FikaPatch] Enabled patch GameWorld_ThrowItem_Patch
+[Info   : FikaPatch] Enabled patch GClass1675_method_9_Patch
+[Info   : FikaPatch] Enabled patch GClass2054_method_0_Patch
+[Info   : FikaPatch] Enabled patch GClass3371_ExceptAI_Patch
+[Info   : FikaPatch] Enabled patch GrenadeClass_Init_Patch
+[Info   : FikaPatch] Enabled patch BufferInnerZone_ChangePlayerAccessStatus_Patch
+[Info   : FikaPatch] Enabled patch BufferInnerZone_ChangeZoneInteractionAvailability_Patch
+[Info   : FikaPatch] Enabled patch BufferZoneControllerClass_method_1_Patch
+[Info   : FikaPatch] Enabled patch BufferZoneControllerClass_SetPlayerInZoneStatus_Patch
+[Info   : FikaPatch] Enabled patch BaseLocalGame_method_13_Patch
+[Info   : FikaPatch] Enabled patch NonWaveSpawnScenario_Patch
+[Info   : FikaPatch] Enabled patch TarkovApplication_LocalGameCreator_Patch
+[Info   : FikaPatch] Enabled patch TarkovApplication_LocalGamePreparer_Patch
+[Info   : FikaPatch] Enabled patch WaveSpawnScenario_Patch
+[Info   : FikaPatch] Enabled patch MineDirectional_OnTriggerEnter_Patch
+[Info   : FikaPatch] Enabled patch Minefield_method_2_Patch
+[Info   : FikaPatch] Enabled patch GetProfileAtEndOfRaidPatch_Override
+[Info   : FikaPatch] Enabled patch FixSavageInventoryScreenPatch_Override
+[Info   : FikaPatch] Enabled patch OfflineRaidSettingsMenuPatch_Override
+[Info   : FikaPatch] Enabled patch ScavProfileLoad_Override
+[Info   : FikaPatch] Enabled patch BodyPartCollider_SetUpPlayer_Patch
+[Info   : FikaPatch] Enabled patch Player_Hide_Patch
+[Info   : FikaPatch] Enabled patch Player_ManageAggressor_Patch
+[Info   : FikaPatch] Enabled patch Player_OnDead_Patch
+[Info   : FikaPatch] Enabled patch Player_SetDogtagInfo_Patch
+[Info   : FikaPatch] Enabled patch Player_SpawnInHands_Patch
+[Info   : FikaPatch] Enabled patch TransitControllerAbstractClass_Exist_Patch
+[Info   : FikaPatch] Enabled patch TripwireSynchronizableObject_method_11_Patch
+[Info   : FikaPatch] Enabled patch TripwireSynchronizableObject_method_6_Patch
+[Info   : FikaPatch] Enabled patch BasicMicrophoneCapture_UpdateSubscribers_Transpiler
+[Info   : FikaPatch] Enabled patch DissonanceComms_Start_Patch
+[Info   : FikaPatch] Enabled patch Player_IDissonancePlayerType_Patch
+[Info   : FikaPatch] Enabled patch Player_HasMarkOfUnknown_Patch
+[Info   : FikaPatch] Enabled patch OpticRetrice_UpdateTransform_Patch
+[Info   : FikaPatch] Enabled patch PlayerCameraController_LateUpdate_Transpiler
+[Info   : FikaPatch] Enabled patch DeathFade_Patch
+[Info   : FikaPatch] Enabled patch PlayEndGameSound_Patch
+[Info   : FikaPatch] Enabled patch PlayUISound_Patch
+[Info   : FikaPatch] Enabled patch BTRSide_AddPassenger_Patch
+[Info   : FikaPatch] Enabled patch BTRSide_RemovePassenger_Patch
+[Info   : FikaPatch] Enabled patch BTRSide_method_9_Patch
+[Info   : FikaPatch] Enabled patch LighthouseTraderZone_AddPlayer_Patch
+[Info   : FikaPatch] Enabled patch LighthouseTraderZone_RemovePlayer_Patch
+[Info   : FikaPatch] Enabled patch LighthouseTraderZone_Awake_Patch
+[Info   : FikaPatch] Enabled patch GClass436_Activate_Patch
+[Info   :Fika.Core PatchManager] Enabled 91 patches
+[Info   :ModulePatch] Disabled patch VersionLabelPatch
+[Info   :ModulePatch] Disabled patch AmmoUsedCounterPatch
+[Info   :ModulePatch] Disabled patch ArmorDamageCounterPatch
+[Info   :ModulePatch] Disabled patch ScavRepAdjustmentPatch
+[Info   :ModulePatch] Disabled patch GetProfileAtEndOfRaidPatch
+[Info   :ModulePatch] Disabled patch ScavExfilPatch
+[Info   :ModulePatch] Disabled patch SendPlayerScavProfileToServerAfterRaidPatch
+[Info   :ModulePatch] Disabled patch MatchStartServerLocationPatch
+[Info   :ModulePatch] Disabled patch QuestAchievementRewardInRaidPatch
+[Info   : Fika.Core] Received config from server:
+[Info   : Fika.Core] Fika is loaded! Running version: 1.2.8.0
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/difficulty/core/core
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/difficulty/core/core
+[Info   : FikaPatch] Enabled patch ItemContext_Patch
+[Info   :   BepInEx] Loading [IcyClawz.MunitionsExpert 1.6.0]
+[Info   :ModulePatch] Enabled patch StaticIconsPatch
+[Info   :ModulePatch] Enabled patch AmmoTemplatePatch
+[Info   :ModulePatch] Enabled patch ItemViewPatch
+[Info   :ModulePatch] Enabled patch EntityIconPatch
+[Info   :   BepInEx] Loading [DrakiaXYZ-BigBrain 1.3.2]
+[Info   :DrakiaXYZ-BigBrain] Loading: DrakiaXYZ-BigBrain
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivatePatch
+[Info   :ModulePatch] Enabled patch BotBrainCreateLogicNodePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainUpdatePatch
+[Info   :ModulePatch] Enabled patch BotAgentUpdatePatch
+[Info   :ModulePatch] Enabled patch BotBaseBrainActivateLayerPatch
+[Info   :ModulePatch] Enabled patch BotStandartBotBrainActivatePatch
+[Info   :DrakiaXYZ-BigBrain] Completed: DrakiaXYZ-BigBrain
+[Info   :   BepInEx] Loading [LootingBots 1.5.2]
+[Info   :ModulePatch] Enabled patch CleanCacheOnRaidEnd
+[Info   :ModulePatch] Enabled patch ClearCacheOnDeath
+[Info   :ModulePatch] Enabled patch EnableWeaponSwitching
+[Info   :ModulePatch] Enabled patch InteractPatch
+[Info   :ModulePatch] Enabled patch InventoryClosePatch
+[Info   :ModulePatch] Enabled patch RemoveComponent
+[Info   :   BepInEx] Loading [SAIN 4.0.3]
+[Info   :ModulePatch] Enabled patch WorldTickPatch
+[Info   :ModulePatch] Enabled patch PlayerLateUpdatePatch
+[Info   :ModulePatch] Enabled patch AddBotComponentPatch
+[Info   :ModulePatch] Enabled patch ActivateBotComponentPatch
+[Info   :ModulePatch] Enabled patch AddGameWorldPatch
+[Info   :ModulePatch] Enabled patch GetBotController
+[Info   :ModulePatch] Enabled patch SetEnvironmentPatch
+[Info   :ModulePatch] Enabled patch SetPanicPointPatch
+[Info   :ModulePatch] Enabled patch AddPointToSearchPatch
+[Info   :ModulePatch] Enabled patch TurnDamnLightOffPatch
+[Info   :ModulePatch] Enabled patch GrenadeThrownActionPatch
+[Info   :ModulePatch] Enabled patch GrenadeExplosionActionPatch
+[Info   :ModulePatch] Enabled patch ShallKnowEnemyPatch
+[Info   :ModulePatch] Enabled patch ShallKnowEnemyLatePatch
+[Info   :ModulePatch] Enabled patch HaveSeenEnemyPatch
+[Info   :ModulePatch] Enabled patch AllowRequestPatch
+[Info   :ModulePatch] Enabled patch FindRequestForMePatch
+[Info   :ModulePatch] Enabled patch SetInHands_Empty
+[Info   :ModulePatch] Enabled patch SetInHands_Food_Patch
+[Info   :ModulePatch] Enabled patch SetInHands_Grenade_Patch
+[Info   :ModulePatch] Enabled patch SetInHands_Knife_Patch
+[Info   :ModulePatch] Enabled patch SetInHands_Meds_Patch1
+[Info   :ModulePatch] Enabled patch SetInHands_Meds_Patch2
+[Info   :ModulePatch] Enabled patch SetInHands_QuickUse_Patch1
+[Info   :ModulePatch] Enabled patch SetInHands_QuickUse_Patch2
+[Info   :ModulePatch] Enabled patch SetInHands_Weapon_Patch
+[Info   :ModulePatch] Enabled patch SetInHands_Weapon_Stationary_Patch
+[Info   :ModulePatch] Enabled patch StopSetToNavMeshPatch
+[Info   :ModulePatch] Enabled patch StopSetToNavMeshPatch2
+[Info   :ModulePatch] Enabled patch FightShallReloadFixPatch
+[Info   :ModulePatch] Enabled patch EnableVaultPatch
+[Info   :ModulePatch] Enabled patch BotMemoryAddEnemyPatch
+[Info   :ModulePatch] Enabled patch BotGroupAddEnemyPatch
+[Info   :ModulePatch] Enabled patch FixItemTakerPatch
+[Info   :ModulePatch] Enabled patch FixItemTakerPatch2
+[Info   :ModulePatch] Enabled patch RotateClampPatch
+[Info   :ModulePatch] Enabled patch RunToEnemyUpdatePatch
+[Info   :ModulePatch] Enabled patch InfiniteMagFixPatch
+[Info   :ModulePatch] Enabled patch EncumberedPatch
+[Info   :ModulePatch] Enabled patch DoorOpenerPatch
+[Info   :ModulePatch] Enabled patch DoorDisabledPatch
+[Info   :ModulePatch] Enabled patch CrawlPatch
+[Info   :ModulePatch] Enabled patch PoseStaminaPatch
+[Info   :ModulePatch] Enabled patch AimStaminaPatch
+[Info   :ModulePatch] Enabled patch GlobalShootSettingsPatch
+[Info   :ModulePatch] Enabled patch GlobalLookPatch
+[Info   :ModulePatch] Enabled patch MovementContextIsAIPatch
+[Warning:  HarmonyX] SetDoorCollisionPatch: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.Interactive.WorldInteractiveObject::SetDoorState(EFT.Interactive.EDoorState state, bool force) instead of void EFT.Interactive.WorldInteractiveObject::SetDoorState(EFT.Interactive.EDoorState state, bool force).
+[Info   :ModulePatch] Enabled patch SetDoorCollisionPatch
+[Info   :ModulePatch] Enabled patch CanBeSnappedPatch
+[Info   :ModulePatch] Enabled patch BotMoverManualUpdatePatch
+[Info   :ModulePatch] Enabled patch BotMoverManualFixedUpdatePatch
+[Info   :ModulePatch] Enabled patch SprintLookDirPatch
+[Info   :ModulePatch] Enabled patch TryPlayShootSoundPatch
+[Info   :ModulePatch] Enabled patch OnMakingShotPatch
+[Info   :ModulePatch] Enabled patch RegisterShotPatch
+[Info   :ModulePatch] Enabled patch OnWeaponModifiedPatch
+[Info   :ModulePatch] Enabled patch HearingSensorPatch
+[Info   :ModulePatch] Enabled patch GrenadeCollisionPatch
+[Info   :ModulePatch] Enabled patch GrenadeCollisionPatch2
+[Info   :ModulePatch] Enabled patch ToggleSoundPatch
+[Info   :ModulePatch] Enabled patch SpawnInHandsSoundPatch
+[Info   :ModulePatch] Enabled patch PlaySwitchHeadlightSoundPatch
+[Info   :ModulePatch] Enabled patch BulletImpactPatch
+[Info   :ModulePatch] Enabled patch TreeSoundPatch
+[Info   :ModulePatch] Enabled patch DoorBreachSoundPatch
+[Info   :ModulePatch] Enabled patch DoorOpenSoundPatch
+[Info   :ModulePatch] Enabled patch FootstepSoundPatch
+[Info   :ModulePatch] Enabled patch SprintSoundPatch
+[Info   :ModulePatch] Enabled patch GenericMovementSoundPatch
+[Info   :ModulePatch] Enabled patch SpecificStepAudioControllerPatch
+[Info   :ModulePatch] Enabled patch JumpSoundPatch
+[Info   :ModulePatch] Enabled patch DryShotPatch
+[Info   :ModulePatch] Enabled patch ProneSoundPatch
+[Info   :ModulePatch] Enabled patch SoundClipNameCheckerPatch
+[Info   :ModulePatch] Enabled patch SoundClipNameCheckerPatch2
+[Info   :ModulePatch] Enabled patch AimSoundPatch
+[Info   :ModulePatch] Enabled patch LootingSoundPatch
+[Info   :ModulePatch] Enabled patch JumpPainPatch
+[Info   :ModulePatch] Enabled patch PlayerHurtPatch
+[Info   :ModulePatch] Enabled patch PlayerTalkPatch
+[Info   :ModulePatch] Enabled patch BotTalkPatch
+[Info   :ModulePatch] Enabled patch BotTalkManualUpdatePatch
+[Info   :ModulePatch] Enabled patch DisableLookUpdatePatch
+[Info   :ModulePatch] Enabled patch UpdateLightEnablePatch
+[Info   :ModulePatch] Enabled patch UpdateLightEnablePatch2
+[Info   :ModulePatch] Enabled patch ToggleNightVisionPatch
+[Info   :ModulePatch] Enabled patch SetPartPriorityPatch
+[Info   :ModulePatch] Enabled patch GlobalLookSettingsPatch
+[Info   :ModulePatch] Enabled patch WeatherTimeVisibleDistancePatch
+[Info   :ModulePatch] Enabled patch NoAIESPPatch
+[Info   :ModulePatch] Enabled patch BotLightTurnOnPatch
+[Info   :ModulePatch] Enabled patch VisionSpeedPatch
+[Info   :ModulePatch] Enabled patch WeatherVisionPatch
+[Info   :ModulePatch] Enabled patch VisionDistancePatch
+[Info   :ModulePatch] Enabled patch CheckFlashlightPatch
+[Info   :ModulePatch] Enabled patch DoHitAffectPatch
+[Info   :ModulePatch] Enabled patch HitAffectApplyPatch
+[Info   :ModulePatch] Enabled patch PlayerHitReactionDisablePatch
+[Info   :ModulePatch] Enabled patch SetAimStatusPatch
+[Info   :ModulePatch] Enabled patch LoseTargetPatch
+[Info   :ModulePatch] Enabled patch AimOffsetPatch
+[Info   :ModulePatch] Enabled patch AimTimePatch
+[Info   :ModulePatch] Enabled patch ForceNoHeadAimPatch
+[Info   :ModulePatch] Enabled patch SmoothTurnPatch
+[Info   :ModulePatch] Enabled patch ResetGrenadePatch
+[Info   :ModulePatch] Enabled patch SetGrenadePatch
+[Info   :ModulePatch] Enabled patch FullAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch
+[Info   :ModulePatch] Enabled patch SemiAutoPatch2
+[Info   :ModulePatch] Enabled patch SemiAutoPatch3
+[Info   :   BepInEx] Loading [MOAR 3.1.2]
+[Info   :   BepInEx] Loading [DrakiaXYZ-Waypoints 1.7.1]
+[Info   :ModulePatch] Enabled patch DebugPatch
+[Info   :ModulePatch] Enabled patch WaypointPatch
+[Info   :ModulePatch] Enabled patch DoorLinkPatch
+[Info   :ModulePatch] Enabled patch DoorLinkStateChangePatch
+[Info   :ModulePatch] Enabled patch SwitchDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch ExfilDoorBlockerPatch
+[Info   :ModulePatch] Enabled patch FindPathPatch
+[Message:   BepInEx] Chainloader startup complete
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST]: /singleplayer/release
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/release
+[Info   :RequestHandler] [REQUEST]: /singleplayer/moddedTraders
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/moddedTraders
+[Info   :RequestHandler] [REQUEST]: /singleplayer/enableBSGlogging
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/enableBSGlogging
+[Info   :RequestHandler] [REQUEST]: /moar/getDefaultConfig
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/getDefaultConfig
+[Info   :RequestHandler] [REQUEST]: /moar/getPresets
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/getPresets
+[Info   :RequestHandler] [REQUEST]: /moar/getServerConfigWithOverrides
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/getServerConfigWithOverrides
+[Info   :RequestHandler] [REQUEST]: /moar/getServerConfigWithOverrides
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/getServerConfigWithOverrides
+[Info   :RequestHandler] [REQUEST]: /moar/currentPreset
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/currentPreset
+[Info   :ModulePatch] Enabled patch NoTeleportPatch
+[Info   :ModulePatch] Enabled patch SniperPatch
+[Info   :ModulePatch] Enabled patch AddEnemyPatch
+[Warning:  HarmonyX] RefreshLocation: You should only patch implemented methods/constructors to avoid issues. Patch the declared method void EFT.InputSystem.InputNode::Add(EFT.InputSystem.InputNode inputNode) instead of void EFT.InputSystem.InputNode::Add(EFT.InputSystem.InputNode inputNode).
+[Info   :ModulePatch] Enabled patch RefreshLocation
+[Info   :ModulePatch] Enabled patch NotificationPatch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/bundles
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bundles
+[Info   :BundleManager] MOD: Loading locally assets/ghost.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_pacific_punch_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_punch_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/ghost_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/nos_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_white.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_lemonade_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/rockstar_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/ghost_peaches_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/starbucks_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/nos.bundle
+[Info   :BundleManager] MOD: Loading locally assets/bang_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_doctor_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_pacific_punch.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_green_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_blue.bundle
+[Info   :BundleManager] MOD: Loading locally assets/ghost_swedish_fish_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_strawberry.bundle
+[Info   :BundleManager] MOD: Loading locally assets/bang.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_blue_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/ghost_peaches.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_punch.bundle
+[Info   :BundleManager] MOD: Loading locally assets/c4_starburst_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/starbucks.bundle
+[Info   :BundleManager] MOD: Loading locally assets/rockstar.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_doctor.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_white_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_lemonade.bundle
+[Info   :BundleManager] MOD: Loading locally assets/ghost_swedish_fish.bundle
+[Info   :BundleManager] MOD: Loading locally assets/stalker.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_green.bundle
+[Info   :BundleManager] MOD: Loading locally assets/stalker_container.bundle
+[Info   :BundleManager] MOD: Loading locally assets/c4_starburst.bundle
+[Info   :BundleManager] MOD: Loading locally assets/monster_strawberry_container.bundle
+[Info   : Fika.Core] Server version check passed. Expected: >2.4.7, received: 2.4.8
+[Info   :FikaModHandler] Loaded plugin: [Configuration Manager] with GUID [com.bepis.bepinex.configurationmanager] and crc32 [2453335703]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Custom] with GUID [com.SPT.custom] and crc32 [2697771812]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Singleplayer] with GUID [com.SPT.singleplayer] and crc32 [1999686428]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Core] with GUID [com.SPT.core] and crc32 [4135225510]
+[Info   :FikaModHandler] Loaded plugin: [SPT.Debugging] with GUID [com.SPT.debugging] and crc32 [2084470248]
+[Info   :FikaModHandler] Loaded plugin: [Fika.Core] with GUID [com.fika.core] and crc32 [3233123487]
+[Info   :FikaModHandler] Loaded plugin: [IcyClawz.MunitionsExpert] with GUID [com.IcyClawz.MunitionsExpert] and crc32 [2831016310]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-BigBrain] with GUID [xyz.drakia.bigbrain] and crc32 [3701555121]
+[Info   :FikaModHandler] Loaded plugin: [LootingBots] with GUID [me.skwizzy.lootingbots] and crc32 [4123998962]
+[Info   :FikaModHandler] Loaded plugin: [SAIN] with GUID [me.sol.sain] and crc32 [1031265223]
+[Info   :FikaModHandler] Loaded plugin: [MOAR] with GUID [MOAR.settings] and crc32 [3790878533]
+[Info   :FikaModHandler] Loaded plugin: [DrakiaXYZ-Waypoints] with GUID [xyz.drakia.waypoints] and crc32 [4022289109]
+[Info   :RequestHandler] [REQUEST]: /fika/client/check/mods
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /fika/client/check/mods
+[Info   :FikaModHandler] UI Fixes is not loaded, enabling PartyInfoPanel fix
+[Info   : FikaPatch] Enabled patch PartyInfoPanel_method_3_Patch
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
+[Info   : FikaPatch] Server version: SPT 3.11.3 - 7a9a34
+[Info   : Fika.Core] Waiting for locales to be ready...
+[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Project Fika Detected.]
+[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Looting Bots Detected.]
+[Info   :LootingBots] Initializing item appraiser
+[Info   : Fika.Core] Locales are ready!
+[Info   : Fika.Core] Cached local IPs: 0.0.0.0, 192.168.50.96
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/log
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
+[Info   :NetManagerUtils] FikaGameObject has been created!
+[Info   :NetManagerUtils] FikaServer has started!
+[Info   :Fika.Server] Starting server with SendRate: 20
+[Info   :NetManagerUtils] Creating CoopHandler...
+[Info   :Fika.Server] Started Fika Server
+[Info   :Fika.Server] Connection established with 68.204.247.186:54366, id: 0
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/getRaidTime
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/getRaidTime
+[Info   :  CoopGame] Location: Customs
+[Info   :      MOAR] Attempting spawnzone updates
+[Info   :      MOAR] Spawnszone updates complete
+[Info   :NetManagerUtils] Setting up game variables...
+[Info   :  CoopGame] Adding debug component...
+[Info   :  CoopGame] Local player created
+[Info   :  CoopGame] Starting task to wait for host to start the raid.
+[Info   :  CoopGame] Generating and initializing weather...
+[Info   :  CoopGame] Setting Season to: Summer
+[Info   :CoopHandler] AddClientToBotEnemies: prodion
+[Info   : Fika.Core] Retrieving Core settings
+[Warning:ModulePatch] __instance.BotHalloweenEvent._spawner is null skip Activate
+[Info   :ModulePatch] __instance.BotHalloweenEvent._spawner is not null run Activate
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/maxCap/bigmap
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/maxCap/bigmap
+[Info   :ModulePatch] Set max bot cap for: bigmap from: 36 to: 28
+[Info   :  CoopGame] Waiting for other players to finish loading...
+[Info   :  CoopGame] All players are loaded, continuing...
+[Warning: Fika.Core] FreeCameraController::Awake: Failed to cache BattleUI
+[Info   :  CoopGame] MatchingType: GroupLeader, Raid Code: 59JFK8
+[Error  :  CoopGame] SyncTransitControllers: TransitController was null!
+[Info   :  CoopGame] [SERVER] SpawnPoint: 7fe97f38-d775-4094-8e05-297c872a668d, InfiltrationPoint: Customs
+[Info   :RequestHandler] [REQUEST]: /moar/announcePreset
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/announcePreset
+[Info   :RequestHandler] [REQUEST]: /singleplayer/scav/traitorscavhostile
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/scav/traitorscavhostile
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/getBotBehaviours/
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/getBotBehaviours/
+[Warning:ModulePatch] Cached ai brain weights in client
+[Warning:ModulePatch] Updated spt bot Waffle: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Lillian: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Netnikogo: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Nomad_420: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot DjLang: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot loafedbread: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Victor_Two: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Miraki: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Leonana69: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot MechanicMan396: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot btdc00: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Priv_P: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Amands2Mello: pmcUSEC to use: pmcBot brain
+[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: G28 QD. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: BOSS Xe. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot1) Has been stuck trying to reach: Buried barrel cache. Ignoring
+[Warning:ModulePatch] Updated spt bot clmove: pmcUSEC to use: pmcBot brain
+[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot9) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: G28 QD. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Yellow. Ignoring
+[Warning:ModulePatch] Updated spt bot gasmo: pmcUSEC to use: pmcBot brain
+[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Den. Ignoring
+[Warning:ModulePatch] Updated spt bot CWX: pmcUSEC to use: pmcBot brain
+[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: G28 QD. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Cond. milk. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Den. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: BOSS Xe. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot12) Has been stuck trying to reach: Motor. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: BOSS Xe. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot16) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Cond. milk. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot12) Has been stuck trying to reach: Bolts. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot16) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Den. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Cond. milk. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot20) Has been stuck trying to reach: Buried barrel cache. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot12) Has been stuck trying to reach: Toolset. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot2) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot16) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot2) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot22) Has been stuck trying to reach: IFAK. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot20) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot2) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: RPK-16 22". Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot16) Has been stuck trying to reach: Medbag SMU06. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: MOE FG. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot9) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot20) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot8) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot5) Has been stuck trying to reach: RIS II FSP 9.5 CB. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot12) Has been stuck trying to reach: Xeno. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: PMC body. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot8) Has been stuck trying to reach: RIS II FSP 9.5 CB. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot2) Has been stuck trying to reach: MP5 HX-5. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Cat. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot5) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Yellow. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot9) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: PMC body. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Cat. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Keycards. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: RIS II FSP 9.5 CB. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot5) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Keycards. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Yellow. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Keycards. Ignoring
+[Error  :      SAIN] [SAIN.Components.BotControllerSpace.Classes.BotHearingClass] : [[PatchPrefix().PlayAISound().PlayAISound()]:] : [Player Component Null]
+[Warning: DynamicAI] Could not remove Bot4 from bots list.
+[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Cat. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Keycards. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Keycards. Ignoring
+[Warning: DynamicAI] Could not remove Bot24 from bots list.
+[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Keycards. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: G28. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: PMC body. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Noodles. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: M14 JP. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot39) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Dead Scav. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot39) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot39) Has been stuck trying to reach: M14 JP. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: PC block. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot39) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Grenade box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot39) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Dead Scav. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: M14 JP. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Noodles. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot39) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot37) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: M14 JP. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot37) Has been stuck trying to reach: MOE FG. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot42) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Den. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot37) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot38) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot37) Has been stuck trying to reach: RIS II FSP 9.5 CB. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot38) Has been stuck trying to reach: MOE FG. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot38) Has been stuck trying to reach: RIS II FSP 9.5 CB. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Noodles. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: BOSS Xe. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot38) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: G28 QD. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Noodles. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot35) Has been stuck trying to reach: MOE FG. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Saury. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot35) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Cond. milk. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Den. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: G28 QD. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot35) Has been stuck trying to reach: RIS II FSP 9.5 CB. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Ripstop. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Keycards. Ignoring
+[Warning: DynamicAI] Could not remove Bot31 from bots list.
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: G28 QD. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: Den. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Hot Rod. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: BOSS Xe. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: Cond. milk. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Saury. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Hot Rod. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot50) Has been stuck trying to reach: Eagle. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Cat. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Hot Rod. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: BOSS Xe. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Keycards. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: G28 QD. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Keycards. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Den. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot49) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: Hot Rod. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Yellow. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Cond. milk. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Bot14. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: Saury. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: PMC body. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Saury. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Cond. milk. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: PC block. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot51) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: BOSS Xe. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot49) Has been stuck trying to reach: Aquamari. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot52) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Cat. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot44) Has been stuck trying to reach: PMC body. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot45) Has been stuck trying to reach: Den. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Keycards. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot44) Has been stuck trying to reach: G28 QD. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Keycards. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot45) Has been stuck trying to reach: BOSS Xe. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Yellow. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot44) Has been stuck trying to reach: Den. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Cat. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Keycards. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot45) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Yellow. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot44) Has been stuck trying to reach: BOSS Xe. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot46) Has been stuck trying to reach: G28 QD. Ignoring
+[Info   :CoopHandler] F8 pressed, attempting to extract!
+[Info   :Fika.Server] Peer disconnected 54366, info: RemoteConnectionClose
+[Error  :LootingBots] ([assaultGroup] Bot46) Has been stuck trying to reach: Hot Rod. Ignoring
+[Info   :CoopHandler] F8 pressed, attempting to extract!
+[Info   :Fika.Server] ..:: Fika Server Session Statistics ::..
+[Info   :Fika.Server] Sent packets: 109960
+[Info   :Fika.Server] Sent data: 88.48 MB
+[Info   :Fika.Server] Received packets: 38340
+[Info   :Fika.Server] Received data: 3.78 MB
+[Info   :Fika.Server] Packet loss: 0%
+[Info   :NetManagerUtils] Destroyed FikaServer
+[Info   :      MOAR] Attempting spawnzone updates
+[Info   :RequestHandler] [REQUEST]: /moar/setPreset
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/setPreset
+[Info   :RequestHandler] [REQUEST]: /moar/getDefaultConfig
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/getDefaultConfig
+[Info   :RequestHandler] [REQUEST]: /moar/setOverrideConfig
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/setOverrideConfig
+[Info   :RequestHandler] [REQUEST]: /moar/getServerConfigWithOverrides
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/getServerConfigWithOverrides
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
+[Info   :NetManagerUtils] FikaServer has started!
+[Info   :Fika.Server] Starting server with SendRate: 20
+[Info   :NetManagerUtils] Creating CoopHandler...
+[Info   :Fika.Server] Started Fika Server
+[Info   :Fika.Server] Connection established with 68.204.247.186:65059, id: 0
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/getRaidTime
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/getRaidTime
+[Info   :  CoopGame] Location: Customs
+[Info   :      MOAR] Attempting spawnzone updates
+[Info   :      MOAR] Spawnszone updates complete
+[Info   :NetManagerUtils] Setting up game variables...
+[Info   :  CoopGame] Adding debug component...
+[Info   :  CoopGame] Local player created
+[Info   :  CoopGame] Starting task to wait for host to start the raid.
+[Info   :  CoopGame] Generating and initializing weather...
+[Info   :  CoopGame] Setting Season to: Summer
+[Info   :CoopHandler] AddClientToBotEnemies: prodion
+[Warning:ModulePatch] __instance.BotHalloweenEvent._spawner is null skip Activate
+[Info   :ModulePatch] __instance.BotHalloweenEvent._spawner is not null run Activate
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/maxCap/bigmap
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/maxCap/bigmap
+[Info   :ModulePatch] Set max bot cap for: bigmap from: 36 to: 28
+[Info   :  CoopGame] Waiting for other players to finish loading...
+[Info   :  CoopGame] All players are loaded, continuing...
+[Warning: Fika.Core] FreeCameraController::Awake: Failed to cache BattleUI
+[Info   :  CoopGame] MatchingType: GroupLeader, Raid Code: 763DMK
+[Error  :  CoopGame] SyncTransitControllers: TransitController was null!
+[Info   :  CoopGame] [SERVER] SpawnPoint: 0cfd7272-0ee5-4baf-96e2-f662cfb86394, InfiltrationPoint: Boiler Tanks
+[Info   :RequestHandler] [REQUEST]: /moar/announcePreset
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/announcePreset
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/getBotBehaviours/
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/getBotBehaviours/
+[Warning:ModulePatch] Cached ai brain weights in client
+[Warning:ModulePatch] Updated spt bot Bobitec: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Drill: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Arokar: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot TheSparta: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Digi: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot yojenkz: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot jonkler: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot dushaoan: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Helldiver: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Basuro: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot bluehead: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot jbs4bmx: pmcUSEC to use: pmcBot brain
+[Error  :LootingBots] ([pmcBEAR] Bot68) Has been stuck trying to reach: Toolbox. Ignoring
+[Warning:ModulePatch] Updated spt bot DannyR121: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot 7 TO 14 FERAL HOGS: pmcUSEC to use: pmcBot brain
+[Error  :      SAIN] [SAIN.Components.BotControllerSpace.Classes.BotHearingClass] : [[PatchPrefix().PlayAISound().PlayAISound()]:] : [Player Component Null]
+[Warning: DynamicAI] Could not remove Bot61 from bots list.
+[Error  :LootingBots] ([pmcBEAR] Bot68) Has been stuck trying to reach: PMC body. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: PRS QDC. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: M4SD-K. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Dead Scav. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: M10 hook. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Green. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot63) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :      SAIN] [SAIN.Components.BotControllerSpace.Classes.BotHearingClass] : [[PatchPrefix().PlayAISound().PlayAISound()]:] : [Player Component Null]
+[Warning: DynamicAI] Could not remove Bot78 from bots list.
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Vector 9x19. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot76) Has been stuck trying to reach: Toolbox. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot76) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: Ground cache. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot76) Has been stuck trying to reach: F1 St1. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Poster. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot71) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot66) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot63) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot81) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot81) Has been stuck trying to reach: F1 St1. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: SE-5. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot66) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot71) Has been stuck trying to reach: F1 St1. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot81) Has been stuck trying to reach: Aeroknox. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot63) Has been stuck trying to reach: Scav Vest. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot71) Has been stuck trying to reach: Aeroknox. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot63) Has been stuck trying to reach: Ground cache. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot66) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: M10 hook. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot66) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: PMC body. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot66) Has been stuck trying to reach: Medbag SMU06. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Vector 9x19. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Green. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot83) Has been stuck trying to reach: Aeroknox. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot83) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot76) Has been stuck trying to reach: Aeroknox. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot83) Has been stuck trying to reach: F1 St1. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: M14. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: Aeroknox. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: F1 St1. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot83) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot83) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot83) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot83) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Ground cache. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: M14. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Poster. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Wooden ammo box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot89) Has been stuck trying to reach: Aeroknox. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot89) Has been stuck trying to reach: F1 St1. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot89) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot71) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Jacket. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot71) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot71) Has been stuck trying to reach: Medcase. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: Medbag SMU06. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot71) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot92) Has been stuck trying to reach: F1 St1. Ignoring
+[Info   :Fika.Server] Peer disconnected 65059, info: RemoteConnectionClose
+[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Bot87. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot73) Has been stuck trying to reach: Weapon box. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Cash register. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Cash register. Ignoring
+[Info   :CoopHandler] F8 pressed, attempting to extract!
+[Info   :Fika.Server] ..:: Fika Server Session Statistics ::..
+[Info   :Fika.Server] Sent packets: 105484
+[Info   :Fika.Server] Sent data: 85.04 MB
+[Info   :Fika.Server] Received packets: 38624
+[Info   :Fika.Server] Received data: 3.78 MB
+[Info   :Fika.Server] Packet loss: 0%
+[Info   :NetManagerUtils] Destroyed FikaServer
