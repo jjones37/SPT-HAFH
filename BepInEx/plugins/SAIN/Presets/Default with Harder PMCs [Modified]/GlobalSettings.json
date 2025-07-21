@@ -147,7 +147,7 @@
       "DAMAGE_MIN_MOD": 0.2,
       "DAMAGE_MAX_MOD": 3.0
     },
-    "AimCenterMassGlobal": true,
+    "AimCenterMassGlobal": false,
     "EnemyVelocityMaxBuff": 1.2,
     "EnemyVelocityMaxDebuff": 0.8,
     "EnemySprintingScatterMulti": 0.66,

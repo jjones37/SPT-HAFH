@@ -532,3 +532,98 @@
 [Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
 [Info   :RequestHandler] [REQUEST]: /singleplayer/log
 [Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
+[Info   :   Console] 07/21/2025 16:10:00|Fatal|<>c__DisplayClass176_0.<startReceiving>b__2|System.IO.IOException: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.
+                                                                                                                                                                                                                          . ---> System.Net.Sockets.SocketException: An existing connection was forcibly closed by the remote host.
+                                                                                                                                                                                                                          
+                             --- End of inner exception stack trace ---
+                            at System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.ThrowException (System.Net.Sockets.SocketError error) [0x00007] in <09af50eda9a647268d2c4fcdf7fac506>:0 
+                            at System.Net.Sockets.Socket+AwaitableSocketAsyncEventArgs.GetResult (System.Int16 token) [0x00022] in <09af50eda9a647268d2c4fcdf7fac506>:0 
+                            at System.Threading.Tasks.ValueTask`1+ValueTaskSourceAsTask+<>c[TResult].<.cctor>b__4_0 (System.Object state) [0x00030] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+                          --- End of stack trace from previous location where exception was thrown ---
+                          
+                            at Mono.Net.Security.MobileAuthenticatedStream.InnerRead (System.Boolean sync, System.Int32 requestedSize, System.Threading.CancellationToken cancellationToken) [0x00104] in <09af50eda9a647268d2c4fcdf7fac506>:0 
+                            at Mono.Net.Security.AsyncProtocolRequest.InnerRead (System.Threading.CancellationToken cancellationToken) [0x000ac] in <09af50eda9a647268d2c4fcdf7fac506>:0 
+                            at Mono.Net.Security.AsyncProtocolRequest.ProcessOperation (System.Threading.CancellationToken cancellationToken) [0x00093] in <09af50eda9a647268d2c4fcdf7fac506>:0 
+                            at Mono.Net.Security.AsyncProtocolRequest.StartOperation (System.Threading.CancellationToken cancellationToken) [0x0008b] in <09af50eda9a647268d2c4fcdf7fac506>:0 
+                            at Mono.Net.Security.MobileAuthenticatedStream.StartOperation (Mono.Net.Security.MobileAuthenticatedStream+OperationType type, Mono.Net.Security.AsyncProtocolRequest asyncRequest, System.Threading.CancellationToken cancellationToken) [0x0024b] in <09af50eda9a647268d2c4fcdf7fac506>:0 
+                            at System.Threading.Tasks.TaskToApm.End[TResult] (System.IAsyncResult asyncResult) [0x0002f] in <8ce0bd04a7a04b4b9395538239d3fdd8>:0 
+                            at System.Net.Security.SslStream.EndRead (System.IAsyncResult asyncResult) [0x00000] in <09af50eda9a647268d2c4fcdf7fac506>:0 
+                            at WebSocketSharp.Ext+<>c__DisplayClass54_0.<ReadBytesAsync>b__0 (System.IAsyncResult ar) [0x00002] in <fce6cd7cbbb84560965568845e99c4e0>:0 
+[Info   :   Console] 07/21/2025 16:10:21|Fatal|WebSocket.connect|A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+                                                                                                 
+[Info   :   Console] 07/21/2025 16:10:35|Fatal|WebSocket.connect|No connection could be made because the target machine actively refused it.
+                                                                                                                                                                                                             
+[Info   :   Console] 07/21/2025 16:11:06|Fatal|WebSocket.connect|A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+                                                                                                 
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
+[Info   :NetManagerUtils] FikaGameObject has been created!
+[Info   :NetManagerUtils] FikaServer has started!
+[Info   :Fika.Server] Starting server with SendRate: 20
+[Info   :NetManagerUtils] Creating CoopHandler...
+[Info   :Fika.Server] Started Fika Server
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/getRaidTime
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/getRaidTime
+[Info   :  CoopGame] Location: Sandbox
+[Info   :      MOAR] Attempting spawnzone updates
+[Info   :      MOAR] Spawnszone updates complete
+[Info   :NetManagerUtils] Setting up game variables...
+[Info   :  CoopGame] Adding debug component...
+[Info   :  CoopGame] Local player created
+[Info   :  CoopGame] Starting task to wait for host to start the raid.
+[Info   :Fika.Server] Connection established with 204.111.196.133:39808, id: 0
+[Info   :  CoopGame] Generating and initializing weather...
+[Info   :  CoopGame] Setting Season to: Summer
+[Info   : Fika.Core] Retrieving Core settings
+[Warning:ModulePatch] __instance.BotHalloweenEvent._spawner is null skip Activate
+[Info   :ModulePatch] __instance.BotHalloweenEvent._spawner is not null run Activate
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/maxCap/Sandbox
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/maxCap/Sandbox
+[Info   :ModulePatch] Set max bot cap for: Sandbox from: 36 to: 15
+[Info   :  CoopGame] Waiting for other players to finish loading...
+[Info   :CoopHandler] AddClientToBotEnemies: Stiffy
+[Info   :  CoopGame] All players are loaded, continuing...
+[Warning: Fika.Core] FreeCameraController::Awake: Failed to cache BattleUI
+[Info   :  CoopGame] MatchingType: GroupLeader, Raid Code: RCCJSO
+[Error  :  CoopGame] SyncTransitControllers: TransitController was null!
+[Info   :  CoopGame] [SERVER] SpawnPoint: c4969dfb-cdb9-4d8f-aeef-c37efd1eea65, InfiltrationPoint: east
+[Info   :RequestHandler] [REQUEST]: /moar/announcePreset
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/announcePreset
+[Info   :RequestHandler] [REQUEST]: /singleplayer/scav/traitorscavhostile
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/scav/traitorscavhostile
+[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/getBotBehaviours/
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/getBotBehaviours/
+[Warning:ModulePatch] Cached ai brain weights in client
+[Warning:ModulePatch] Updated spt bot Faupi: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot RomanxTheLast: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Carl: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot GIANT ENEMY CRAB: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot PudgeNubbins: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot Holynevil: pmcBEAR to use: pmcBot brain
+[Error  :      SAIN] [SAIN.Components.BotControllerSpace.Classes.BotHearingClass] : [[PatchPrefix().PlayAISound().PlayAISound()]:] : [Player Component Null]
+[Warning: DynamicAI] Could not remove Bot4 from bots list.
+[Error  :LootingBots] ([assaultGroup] Bot13) Has been stuck trying to reach: Humpback. Ignoring
+[Warning:ModulePatch] Updated spt bot Scuvy: pmcUSEC to use: pmcBot brain
+[Error  :LootingBots] ([assaultGroup] Bot12) Has been stuck trying to reach: Monster. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot13) Has been stuck trying to reach: Dead Scav. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot14) Has been stuck trying to reach: Dead Scav. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot13) Has been stuck trying to reach: Shus. Ignoring
+[Error  :LootingBots] ([pmcUSEC] Bot15) Has been stuck trying to reach: Weapon box. Ignoring
+[Warning:ModulePatch] Updated spt bot valeska: pmcBEAR to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot DjLang: pmcUSEC to use: pmcBot brain
+[Warning:ModulePatch] Updated spt bot _物是人非: pmcBEAR to use: pmcBot brain
+[Error  :LootingBots] ([assaultGroup] Bot21) Has been stuck trying to reach: Dead Scav. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: Civilian body. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot17) Has been stuck trying to reach: Technical supply crate. Ignoring
+[Error  :LootingBots] ([assaultGroup] Bot26) Has been stuck trying to reach: Bot18. Ignoring
+[Info   :Fika.Server] Peer disconnected 39808, info: RemoteConnectionClose
+[Info   :CoopHandler] F8 pressed, attempting to extract!
+[Info   :Fika.Server] ..:: Fika Server Session Statistics ::..
+[Info   :Fika.Server] Sent packets: 46525
+[Info   :Fika.Server] Sent data: 27.09 MB
+[Info   :Fika.Server] Received packets: 35665
+[Info   :Fika.Server] Received data: 3.47 MB
+[Info   :Fika.Server] Packet loss: 0%
+[Info   :NetManagerUtils] Destroyed FikaServer
+[Error  :      SAIN] [SAIN.Preset.GlobalSettings.LocationSettingsClass] : [[UpdateSettings().applyLocation().Current()]:] : [gameworld or location class null]
+[Error  :      SAIN] [SAIN.Preset.GlobalSettings.LocationSettingsClass] : [[UpdateSettings().createCustomMods().Current()]:] : [gameworld or location class null]
