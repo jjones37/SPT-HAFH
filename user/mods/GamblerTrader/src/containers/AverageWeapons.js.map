@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "AverageWeapons.js",
+    "sourceRoot": "",
+    "sources": [
+        "AverageWeapons.ts"
+    ],
+    "names": [],
+    "mappings": ";;;AAAA,MAAa,cAAc;IAElB,MAAM,GAAG,QAAQ,CAAC;IAClB,SAAS,GAAG,IAAI,CAAC;IACjB,cAAc,GAAG,IAAI,CAAC;IACtB,uBAAuB,GAAG,KAAK,CAAC;IAEhC,QAAQ,GAAG;QAChB,SAAS;QACT,OAAO;KACR,CAAA;IAEM,OAAO,GAAG;QACf,QAAQ;QACR,MAAM;KACP,CAAA;CACF;AAhBD,wCAgBC"
+}

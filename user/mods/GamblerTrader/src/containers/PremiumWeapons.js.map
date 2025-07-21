@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "PremiumWeapons.js",
+    "sourceRoot": "",
+    "sources": [
+        "PremiumWeapons.ts"
+    ],
+    "names": [],
+    "mappings": ";;;AAAA,MAAa,cAAc;IAElB,MAAM,GAAG,QAAQ,CAAC;IAClB,SAAS,GAAG,IAAI,CAAC;IACjB,cAAc,GAAG,IAAI,CAAC;IACtB,uBAAuB,GAAG,KAAK,CAAC;IAEhC,QAAQ,GAAG;QAChB,OAAO;KACR,CAAA;IAEM,OAAO,GAAG;QACf,MAAM;KACP,CAAA;CACF;AAdD,wCAcC"
+}

@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "file": "LoadoutSplint.js",
+    "sourceRoot": "",
+    "sources": [
+        "LoadoutSplint.ts"
+    ],
+    "names": [],
+    "mappings": ";;;AAAA,MAAa,YAAY;IAEhB,MAAM,GAAG,gBAAgB,CAAC;IAC1B,QAAQ,GAAG;QAChB,OAAO;QACP,WAAW;QACX,SAAS;KACV,CAAA;IAEM,OAAO,GAAG;QACf;YACE,0BAA0B,EAAE,kBAAkB;SAC/C;QACD;YACE,0BAA0B,EAAE,sBAAsB;YAClD,0BAA0B,EAAE,kBAAkB;SAC/C;QACD;YACE,0BAA0B,EAAE,sBAAsB;SACnD;KACF,CAAA;CACF;AArBD,oCAqBC"
+}
