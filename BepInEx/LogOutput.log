@@ -398,41 +398,24 @@
 [Info   :ModulePatch] Enabled patch NotificationPatch
 [Info   :RequestHandler] [REQUEST]: /singleplayer/bundles
 [Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/bundles
-[Info   :BundleManager] MOD: Loading locally assets/ghost.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_pacific_punch_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_punch_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/ghost_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/nos_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_white.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_lemonade_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/rockstar_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/ghost_peaches_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/starbucks_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/nos.bundle
-[Info   :BundleManager] MOD: Loading locally assets/bang_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_doctor_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_pacific_punch.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_green_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_blue.bundle
-[Info   :BundleManager] MOD: Loading locally assets/ghost_swedish_fish_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_strawberry.bundle
-[Info   :BundleManager] MOD: Loading locally assets/bang.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_blue_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/ghost_peaches.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_punch.bundle
-[Info   :BundleManager] MOD: Loading locally assets/c4_starburst_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/starbucks.bundle
-[Info   :BundleManager] MOD: Loading locally assets/rockstar.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_doctor.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_white_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_lemonade.bundle
-[Info   :BundleManager] MOD: Loading locally assets/ghost_swedish_fish.bundle
-[Info   :BundleManager] MOD: Loading locally assets/stalker.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_green.bundle
-[Info   :BundleManager] MOD: Loading locally assets/stalker_container.bundle
-[Info   :BundleManager] MOD: Loading locally assets/c4_starburst.bundle
-[Info   :BundleManager] MOD: Loading locally assets/monster_strawberry_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/ghost.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/ghost.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/ghost.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_pacific_punch_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_pacific_punch_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_pacific_punch_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_punch_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_punch_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_punch_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/ghost_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/ghost_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/ghost_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/nos_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/nos_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/nos_container.bundle
 [Info   : Fika.Core] Server version check passed. Expected: >2.4.7, received: 2.4.8
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_white.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_white.bundle
 [Info   :FikaModHandler] Loaded plugin: [Configuration Manager] with GUID [com.bepis.bepinex.configurationmanager] and crc32 [2453335703]
 [Info   :FikaModHandler] Loaded plugin: [SPT.Custom] with GUID [com.SPT.custom] and crc32 [2697771812]
 [Info   :FikaModHandler] Loaded plugin: [SPT.Singleplayer] with GUID [com.SPT.singleplayer] and crc32 [1999686428]
@@ -449,431 +432,103 @@
 [Info   :RequestHandler] [REQUEST SUCCESSFUL] /fika/client/check/mods
 [Info   :FikaModHandler] UI Fixes is not loaded, enabling PartyInfoPanel fix
 [Info   : FikaPatch] Enabled patch PartyInfoPanel_method_3_Patch
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_white.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_lemonade_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_lemonade_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_lemonade_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/rockstar_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/rockstar_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/rockstar_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/ghost_peaches_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/ghost_peaches_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/ghost_peaches_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/starbucks_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/starbucks_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/starbucks_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/nos.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/nos.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/nos.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/bang_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/bang_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/bang_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_doctor_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_doctor_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_doctor_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_pacific_punch.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_pacific_punch.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_pacific_punch.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_green_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_green_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_green_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_blue.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_blue.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_blue.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/ghost_swedish_fish_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/ghost_swedish_fish_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/ghost_swedish_fish_container.bundle
+[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Project Fika Detected.]
+[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Looting Bots Detected.]
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_strawberry.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_strawberry.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_strawberry.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/bang.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/bang.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/bang.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_blue_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_blue_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_blue_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/ghost_peaches.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/ghost_peaches.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/ghost_peaches.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_punch.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_punch.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_punch.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/c4_starburst_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/c4_starburst_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/c4_starburst_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/starbucks.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/starbucks.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/starbucks.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/rockstar.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/rockstar.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/rockstar.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_doctor.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_doctor.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_doctor.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_white_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_white_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_white_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_lemonade.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_lemonade.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_lemonade.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/ghost_swedish_fish.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/ghost_swedish_fish.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/ghost_swedish_fish.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/stalker.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/stalker.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/stalker.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_green.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_green.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_green.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/stalker_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/stalker_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/stalker_container.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/c4_starburst.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/c4_starburst.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/c4_starburst.bundle
+[Info   :BundleManager] CACHE: Bundle is missing, (re-)acquiring assets/monster_strawberry_container.bundle
+[Info   :RequestHandler] [REQUEST]: /files/bundle/assets/monster_strawberry_container.bundle
+[Info   :RequestHandler] [REQUEST SUCCESSFUL] /files/bundle/assets/monster_strawberry_container.bundle
 [Info   :RequestHandler] [REQUEST]: /singleplayer/settings/version
 [Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/version
 [Info   : FikaPatch] Server version: SPT 3.11.3 - 7a9a34
 [Info   : Fika.Core] Waiting for locales to be ready...
-[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Project Fika Detected.]
-[Info   :      SAIN] [SAIN.ModDetection] : [[CheckPlugins()]:] : [SAIN: Looting Bots Detected.]
-[Info   :LootingBots] Initializing item appraiser
 [Info   : Fika.Core] Locales are ready!
 [Info   : Fika.Core] Cached local IPs: 0.0.0.0, 192.168.50.96
+[Info   :LootingBots] Initializing item appraiser
 [Info   :RequestHandler] [REQUEST]: /singleplayer/log
 [Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
 [Info   :RequestHandler] [REQUEST]: /singleplayer/log
 [Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
 [Info   :RequestHandler] [REQUEST]: /singleplayer/log
 [Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/log
-[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
-[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
-[Info   :NetManagerUtils] FikaGameObject has been created!
-[Info   :NetManagerUtils] FikaServer has started!
-[Info   :Fika.Server] Starting server with SendRate: 20
-[Info   :NetManagerUtils] Creating CoopHandler...
-[Info   :Fika.Server] Started Fika Server
-[Info   :Fika.Server] Connection established with 68.204.247.186:54366, id: 0
-[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/getRaidTime
-[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/getRaidTime
-[Info   :  CoopGame] Location: Customs
-[Info   :      MOAR] Attempting spawnzone updates
-[Info   :      MOAR] Spawnszone updates complete
-[Info   :NetManagerUtils] Setting up game variables...
-[Info   :  CoopGame] Adding debug component...
-[Info   :  CoopGame] Local player created
-[Info   :  CoopGame] Starting task to wait for host to start the raid.
-[Info   :  CoopGame] Generating and initializing weather...
-[Info   :  CoopGame] Setting Season to: Summer
-[Info   :CoopHandler] AddClientToBotEnemies: prodion
-[Info   : Fika.Core] Retrieving Core settings
-[Warning:ModulePatch] __instance.BotHalloweenEvent._spawner is null skip Activate
-[Info   :ModulePatch] __instance.BotHalloweenEvent._spawner is not null run Activate
-[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/maxCap/bigmap
-[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/maxCap/bigmap
-[Info   :ModulePatch] Set max bot cap for: bigmap from: 36 to: 28
-[Info   :  CoopGame] Waiting for other players to finish loading...
-[Info   :  CoopGame] All players are loaded, continuing...
-[Warning: Fika.Core] FreeCameraController::Awake: Failed to cache BattleUI
-[Info   :  CoopGame] MatchingType: GroupLeader, Raid Code: 59JFK8
-[Error  :  CoopGame] SyncTransitControllers: TransitController was null!
-[Info   :  CoopGame] [SERVER] SpawnPoint: 7fe97f38-d775-4094-8e05-297c872a668d, InfiltrationPoint: Customs
-[Info   :RequestHandler] [REQUEST]: /moar/announcePreset
-[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/announcePreset
-[Info   :RequestHandler] [REQUEST]: /singleplayer/scav/traitorscavhostile
-[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/scav/traitorscavhostile
-[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/getBotBehaviours/
-[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/getBotBehaviours/
-[Warning:ModulePatch] Cached ai brain weights in client
-[Warning:ModulePatch] Updated spt bot Waffle: pmcUSEC to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot Lillian: pmcBEAR to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot Netnikogo: pmcBEAR to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot Nomad_420: pmcUSEC to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot DjLang: pmcBEAR to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot loafedbread: pmcBEAR to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot Victor_Two: pmcBEAR to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot Miraki: pmcUSEC to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot Leonana69: pmcUSEC to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot MechanicMan396: pmcBEAR to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot btdc00: pmcBEAR to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot Priv_P: pmcBEAR to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot Amands2Mello: pmcUSEC to use: pmcBot brain
-[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: G28 QD. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: BOSS Xe. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot1) Has been stuck trying to reach: Buried barrel cache. Ignoring
-[Warning:ModulePatch] Updated spt bot clmove: pmcUSEC to use: pmcBot brain
-[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot9) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: G28 QD. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Yellow. Ignoring
-[Warning:ModulePatch] Updated spt bot gasmo: pmcUSEC to use: pmcBot brain
-[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Den. Ignoring
-[Warning:ModulePatch] Updated spt bot CWX: pmcUSEC to use: pmcBot brain
-[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: G28 QD. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Cond. milk. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Den. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: BOSS Xe. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot12) Has been stuck trying to reach: Motor. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: BOSS Xe. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot16) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Cond. milk. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot12) Has been stuck trying to reach: Bolts. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot16) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Den. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Cond. milk. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot20) Has been stuck trying to reach: Buried barrel cache. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot12) Has been stuck trying to reach: Toolset. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot2) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot16) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot2) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot22) Has been stuck trying to reach: IFAK. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot20) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot2) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: RPK-16 22". Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot16) Has been stuck trying to reach: Medbag SMU06. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: MOE FG. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot9) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot20) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot8) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot5) Has been stuck trying to reach: RIS II FSP 9.5 CB. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot12) Has been stuck trying to reach: Xeno. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: PMC body. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot8) Has been stuck trying to reach: RIS II FSP 9.5 CB. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot2) Has been stuck trying to reach: MP5 HX-5. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Cat. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot5) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Yellow. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot9) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: PMC body. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Cat. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Keycards. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: RIS II FSP 9.5 CB. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot5) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Keycards. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot23) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Yellow. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Keycards. Ignoring
-[Error  :      SAIN] [SAIN.Components.BotControllerSpace.Classes.BotHearingClass] : [[PatchPrefix().PlayAISound().PlayAISound()]:] : [Player Component Null]
-[Warning: DynamicAI] Could not remove Bot4 from bots list.
-[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Cat. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Keycards. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Keycards. Ignoring
-[Warning: DynamicAI] Could not remove Bot24 from bots list.
-[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Keycards. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: G28. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: PMC body. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Noodles. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot13) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: M14 JP. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot15) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot39) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([pmcBEAR] Bot14) Has been stuck trying to reach: Dead Scav. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot39) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot39) Has been stuck trying to reach: M14 JP. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: PC block. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot39) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Grenade box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot39) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Dead Scav. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: M14 JP. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Noodles. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot39) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot37) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: M14 JP. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot37) Has been stuck trying to reach: MOE FG. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot42) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Den. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot37) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot38) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot37) Has been stuck trying to reach: RIS II FSP 9.5 CB. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot38) Has been stuck trying to reach: MOE FG. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot38) Has been stuck trying to reach: RIS II FSP 9.5 CB. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Noodles. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: BOSS Xe. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot38) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: G28 QD. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Noodles. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot35) Has been stuck trying to reach: MOE FG. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Saury. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot35) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Cond. milk. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Den. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: G28 QD. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot35) Has been stuck trying to reach: RIS II FSP 9.5 CB. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Ripstop. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Keycards. Ignoring
-[Warning: DynamicAI] Could not remove Bot31 from bots list.
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: G28 QD. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: Den. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Hot Rod. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: BOSS Xe. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: Cond. milk. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Saury. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Hot Rod. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot50) Has been stuck trying to reach: Eagle. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Cat. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Hot Rod. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: BOSS Xe. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Keycards. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: G28 QD. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Keycards. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Den. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot49) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: Hot Rod. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Yellow. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Cond. milk. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Bot14. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: Saury. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: PMC body. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot48) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Saury. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Cond. milk. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot32) Has been stuck trying to reach: PC block. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot51) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: BOSS Xe. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot49) Has been stuck trying to reach: Aquamari. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot52) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Cat. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot44) Has been stuck trying to reach: PMC body. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot45) Has been stuck trying to reach: Den. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Keycards. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot44) Has been stuck trying to reach: G28 QD. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Keycards. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot45) Has been stuck trying to reach: BOSS Xe. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Yellow. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot44) Has been stuck trying to reach: Den. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Cat. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot41) Has been stuck trying to reach: Keycards. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot45) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot40) Has been stuck trying to reach: Yellow. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot44) Has been stuck trying to reach: BOSS Xe. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot46) Has been stuck trying to reach: G28 QD. Ignoring
-[Info   :CoopHandler] F8 pressed, attempting to extract!
-[Info   :Fika.Server] Peer disconnected 54366, info: RemoteConnectionClose
-[Error  :LootingBots] ([assaultGroup] Bot46) Has been stuck trying to reach: Hot Rod. Ignoring
-[Info   :CoopHandler] F8 pressed, attempting to extract!
-[Info   :Fika.Server] ..:: Fika Server Session Statistics ::..
-[Info   :Fika.Server] Sent packets: 109960
-[Info   :Fika.Server] Sent data: 88.48 MB
-[Info   :Fika.Server] Received packets: 38340
-[Info   :Fika.Server] Received data: 3.78 MB
-[Info   :Fika.Server] Packet loss: 0%
-[Info   :NetManagerUtils] Destroyed FikaServer
-[Info   :      MOAR] Attempting spawnzone updates
-[Info   :RequestHandler] [REQUEST]: /moar/setPreset
-[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/setPreset
-[Info   :RequestHandler] [REQUEST]: /moar/getDefaultConfig
-[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/getDefaultConfig
-[Info   :RequestHandler] [REQUEST]: /moar/setOverrideConfig
-[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/setOverrideConfig
-[Info   :RequestHandler] [REQUEST]: /moar/getServerConfigWithOverrides
-[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/getServerConfigWithOverrides
-[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/raid/menu
-[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/raid/menu
-[Info   :NetManagerUtils] FikaServer has started!
-[Info   :Fika.Server] Starting server with SendRate: 20
-[Info   :NetManagerUtils] Creating CoopHandler...
-[Info   :Fika.Server] Started Fika Server
-[Info   :Fika.Server] Connection established with 68.204.247.186:65059, id: 0
-[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/getRaidTime
-[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/getRaidTime
-[Info   :  CoopGame] Location: Customs
-[Info   :      MOAR] Attempting spawnzone updates
-[Info   :      MOAR] Spawnszone updates complete
-[Info   :NetManagerUtils] Setting up game variables...
-[Info   :  CoopGame] Adding debug component...
-[Info   :  CoopGame] Local player created
-[Info   :  CoopGame] Starting task to wait for host to start the raid.
-[Info   :  CoopGame] Generating and initializing weather...
-[Info   :  CoopGame] Setting Season to: Summer
-[Info   :CoopHandler] AddClientToBotEnemies: prodion
-[Warning:ModulePatch] __instance.BotHalloweenEvent._spawner is null skip Activate
-[Info   :ModulePatch] __instance.BotHalloweenEvent._spawner is not null run Activate
-[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/maxCap/bigmap
-[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/maxCap/bigmap
-[Info   :ModulePatch] Set max bot cap for: bigmap from: 36 to: 28
-[Info   :  CoopGame] Waiting for other players to finish loading...
-[Info   :  CoopGame] All players are loaded, continuing...
-[Warning: Fika.Core] FreeCameraController::Awake: Failed to cache BattleUI
-[Info   :  CoopGame] MatchingType: GroupLeader, Raid Code: 763DMK
-[Error  :  CoopGame] SyncTransitControllers: TransitController was null!
-[Info   :  CoopGame] [SERVER] SpawnPoint: 0cfd7272-0ee5-4baf-96e2-f662cfb86394, InfiltrationPoint: Boiler Tanks
-[Info   :RequestHandler] [REQUEST]: /moar/announcePreset
-[Info   :RequestHandler] [REQUEST SUCCESSFUL] /moar/announcePreset
-[Info   :RequestHandler] [REQUEST]: /singleplayer/settings/bot/getBotBehaviours/
-[Info   :RequestHandler] [REQUEST SUCCESSFUL] /singleplayer/settings/bot/getBotBehaviours/
-[Warning:ModulePatch] Cached ai brain weights in client
-[Warning:ModulePatch] Updated spt bot Bobitec: pmcUSEC to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot Drill: pmcBEAR to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot Arokar: pmcBEAR to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot TheSparta: pmcUSEC to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot Digi: pmcBEAR to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot yojenkz: pmcBEAR to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot jonkler: pmcUSEC to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot dushaoan: pmcBEAR to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot Helldiver: pmcBEAR to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot Basuro: pmcBEAR to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot bluehead: pmcUSEC to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot jbs4bmx: pmcUSEC to use: pmcBot brain
-[Error  :LootingBots] ([pmcBEAR] Bot68) Has been stuck trying to reach: Toolbox. Ignoring
-[Warning:ModulePatch] Updated spt bot DannyR121: pmcUSEC to use: pmcBot brain
-[Warning:ModulePatch] Updated spt bot 7 TO 14 FERAL HOGS: pmcUSEC to use: pmcBot brain
-[Error  :      SAIN] [SAIN.Components.BotControllerSpace.Classes.BotHearingClass] : [[PatchPrefix().PlayAISound().PlayAISound()]:] : [Player Component Null]
-[Warning: DynamicAI] Could not remove Bot61 from bots list.
-[Error  :LootingBots] ([pmcBEAR] Bot68) Has been stuck trying to reach: PMC body. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: PRS QDC. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: M4SD-K. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Dead Scav. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: M10 hook. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Green. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot63) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :      SAIN] [SAIN.Components.BotControllerSpace.Classes.BotHearingClass] : [[PatchPrefix().PlayAISound().PlayAISound()]:] : [Player Component Null]
-[Warning: DynamicAI] Could not remove Bot78 from bots list.
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Vector 9x19. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot76) Has been stuck trying to reach: Toolbox. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot76) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: Ground cache. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot76) Has been stuck trying to reach: F1 St1. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Poster. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot71) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot66) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot63) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot81) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot81) Has been stuck trying to reach: F1 St1. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: SE-5. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot66) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot71) Has been stuck trying to reach: F1 St1. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot81) Has been stuck trying to reach: Aeroknox. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot63) Has been stuck trying to reach: Scav Vest. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot71) Has been stuck trying to reach: Aeroknox. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot63) Has been stuck trying to reach: Ground cache. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot66) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: M10 hook. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot66) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: PMC body. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot66) Has been stuck trying to reach: Medbag SMU06. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Vector 9x19. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Green. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot83) Has been stuck trying to reach: Aeroknox. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot75) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot83) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot76) Has been stuck trying to reach: Aeroknox. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot83) Has been stuck trying to reach: F1 St1. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: M14. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot80) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: Aeroknox. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: F1 St1. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot83) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot83) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot83) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot83) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Ground cache. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: M14. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Poster. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Wooden ammo box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot89) Has been stuck trying to reach: Aeroknox. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot89) Has been stuck trying to reach: F1 St1. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot89) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot71) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Jacket. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot71) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot71) Has been stuck trying to reach: Medcase. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: Medbag SMU06. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot71) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot70) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot92) Has been stuck trying to reach: F1 St1. Ignoring
-[Info   :Fika.Server] Peer disconnected 65059, info: RemoteConnectionClose
-[Error  :LootingBots] ([pmcUSEC] Bot74) Has been stuck trying to reach: Bot87. Ignoring
-[Error  :LootingBots] ([pmcUSEC] Bot73) Has been stuck trying to reach: Weapon box. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Cash register. Ignoring
-[Error  :LootingBots] ([assaultGroup] Bot85) Has been stuck trying to reach: Cash register. Ignoring
-[Info   :CoopHandler] F8 pressed, attempting to extract!
-[Info   :Fika.Server] ..:: Fika Server Session Statistics ::..
-[Info   :Fika.Server] Sent packets: 105484
-[Info   :Fika.Server] Sent data: 85.04 MB
-[Info   :Fika.Server] Received packets: 38624
-[Info   :Fika.Server] Received data: 3.78 MB
-[Info   :Fika.Server] Packet loss: 0%
-[Info   :NetManagerUtils] Destroyed FikaServer
